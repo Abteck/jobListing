@@ -1,6 +1,6 @@
 import { useState } from "react";
 import JobListing from "./JobListing.jsx";
-import jobData from "../data.json";
+import jobData from "./data.json";
 import FilterData from "./filter/FilterData.jsx";
 import image1 from "./images/bg-header-desktop.svg";
 import image2 from "./images/bg-header-desktop.svg";
