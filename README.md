@@ -26,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop view](./public/images/jobListingDesktop.png)
+![mobile view](./public/images/jobListing.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [live link](https://job-listing-umber.vercel.app/)
 
 ## My process
