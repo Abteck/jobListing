@@ -2,8 +2,8 @@ import { useState } from "react";
 import JobListing from "./JobListing.jsx";
 import jobData from "./data.json";
 import FilterData from "./filter/FilterData.jsx";
-import image1 from "./images/bg-header-desktop.svg";
-import image2 from "./images/bg-header-desktop.svg";
+// import image1 from "images/bg-header-desktop.svg";
+// import image2 from "images/bg-header-desktop.svg";
 
 const App = () => {
   const [filters, setFilters] = useState([]);
@@ -31,8 +31,16 @@ const App = () => {
   return (
     <div className="w-full min-h-screen">
       <div className="w-full bg-Desaturated-Dark-Cyan mb-10">
-        <img src={image1} alt="header" className="w-full md:hidden block" />
-        <img src={image2} alt="header" className="w-full hidden md:block" />
+        <img
+          src="./images/bg-header-desktop.svg"
+          alt="header"
+          className="w-full md:hidden block"
+        />
+        <img
+          src="images/bg-header-desktop.svg"
+          alt="header"
+          className="w-full hidden md:block"
+        />
       </div>
 
       {/* if filter > 0, show filter component */}

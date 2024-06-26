@@ -68,3 +68,10 @@ export default function JobListing({
     </div>
   );
 }
+
+// Hello lainth and hello everyone, since I know for sure how crazy this type of problem can I wanted to submit this solution to all of you, do not modify the .json file, and insert this function in the map function and return the require of your image like this :
+
+// const IMG = (imgName) => {
+//                      return require (`../ assets / images / $ {imgName}`)
+//                    }
+// obviously modify the path according to the location of your file structure, I hope it will be useful to someone in the future
