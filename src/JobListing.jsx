@@ -25,6 +25,7 @@ export default function JobListing({
           <img
             className="w-16 lg:w-32 absolute md:static -top-8"
             src={logo}
+            alt={company}
           ></img>
         </div>
         <div className="flex flex-col gap-4 w-80 lg:w-fit ">
